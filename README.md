@@ -90,8 +90,8 @@ green-energy-sustainability/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/green-energy-sustainability.git
-cd green-energy-sustainability
+git clone https://github.com/kenkao05/greenenergy.git
+cd greenenergy
 ```
 
 2. Install dependencies:
