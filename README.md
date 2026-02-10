@@ -64,7 +64,6 @@ green-energy-sustainability/
 │   ├── country_data.json
 │   └── scaler_params.json
 │
-│
 ├── assets/                     # Images and resources
 │   └── world.svg
 │
