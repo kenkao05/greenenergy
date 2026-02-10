@@ -1,0 +1,19 @@
+{
+  "coefficients": [
+    0.08113811545081807,
+    0.04690505664597634,
+    -0.005395635460149648,
+    0.0199181779983178
+  ],
+  "intercept": 0.10268153526970944,
+  "feature_names": [
+    "renewable_percent",
+    "fossil_percent",
+    "ghg_per_capita",
+    "energy_per_capita"
+  ],
+  "target": "future_renewable_growth",
+  "r2_score": -0.014108988134149403,
+  "rmse": 1.0570881677840964,
+  "mae": 0.44813400674365456
+}

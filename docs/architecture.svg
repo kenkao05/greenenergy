@@ -1,0 +1,75 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Green Energy Sustainability Analysis - Architecture
+  </text>
+  
+  <!-- Data Layer -->
+  <rect x="50" y="70" width="200" height="120" fill="#3498db" rx="10" opacity="0.8"/>
+  <text x="150" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Data Layer</text>
+  <text x="150" y="120" font-size="12" text-anchor="middle" fill="white">Raw Data</text>
+  <text x="150" y="140" font-size="12" text-anchor="middle" fill="white">OWID Energy Dataset</text>
+  <text x="150" y="160" font-size="12" text-anchor="middle" fill="white">220 Countries</text>
+  <text x="150" y="180" font-size="12" text-anchor="middle" fill="white">2000-2021</text>
+  
+  <!-- Processing Layer -->
+  <rect x="300" y="70" width="200" height="120" fill="#9b59b6" rx="10" opacity="0.8"/>
+  <text x="400" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Processing</text>
+  <text x="400" y="120" font-size="12" text-anchor="middle" fill="white">Data Cleaning</text>
+  <text x="400" y="140" font-size="12" text-anchor="middle" fill="white">Feature Engineering</text>
+  <text x="400" y="160" font-size="12" text-anchor="middle" fill="white">Standardization</text>
+  
+  <!-- Model Layer -->
+  <rect x="550" y="70" width="200" height="120" fill="#e74c3c" rx="10" opacity="0.8"/>
+  <text x="650" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="white">ML Models</text>
+  <text x="650" y="120" font-size="12" text-anchor="middle" fill="white">Linear Regression</text>
+  <text x="650" y="140" font-size="12" text-anchor="middle" fill="white">K-Means (k=3)</text>
+  <text x="650" y="160" font-size="12" text-anchor="middle" fill="white">PCA (2 comp)</text>
+  
+  <!-- Model Details -->
+  <rect x="100" y="250" width="180" height="100" fill="#2ecc71" rx="10" opacity="0.8"/>
+  <text x="190" y="275" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Regression</text>
+  <text x="190" y="295" font-size="11" text-anchor="middle" fill="white">R² = -0.014</text>
+  <text x="190" y="310" font-size="11" text-anchor="middle" fill="white">RMSE = 1.057</text>
+  <text x="190" y="325" font-size="11" text-anchor="middle" fill="white">Features: 4</text>
+  
+  <rect x="310" y="250" width="180" height="100" fill="#f39c12" rx="10" opacity="0.8"/>
+  <text x="400" y="275" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Clustering</text>
+  <text x="400" y="295" font-size="11" text-anchor="middle" fill="white">Silhouette = 0.548</text>
+  <text x="400" y="310" font-size="11" text-anchor="middle" fill="white">3 Clusters</text>
+  <text x="400" y="325" font-size="11" text-anchor="middle" fill="white">202 Countries</text>
+  
+  <rect x="520" y="250" width="180" height="100" fill="#16a085" rx="10" opacity="0.8"/>
+  <text x="610" y="275" font-size="14" font-weight="bold" text-anchor="middle" fill="white">PCA</text>
+  <text x="610" y="295" font-size="11" text-anchor="middle" fill="white">Variance = 93%</text>
+  <text x="610" y="310" font-size="11" text-anchor="middle" fill="white">PC1: 52.3%</text>
+  <text x="610" y="325" font-size="11" text-anchor="middle" fill="white">PC2: 40.7%</text>
+  
+  <!-- Visualization Layer -->
+  <rect x="200" y="400" width="400" height="100" fill="#34495e" rx="10" opacity="0.8"/>
+  <text x="400" y="425" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Interactive Dashboard</text>
+  <text x="400" y="450" font-size="12" text-anchor="middle" fill="white">HTML + Chart.js</text>
+  <text x="400" y="470" font-size="12" text-anchor="middle" fill="white">5 Visualization Tabs</text>
+  <text x="400" y="490" font-size="12" text-anchor="middle" fill="white">Real-time Interactions</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <line x1="250" y1="130" x2="300" y2="130" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="130" x2="550" y2="130" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="190" y1="190" x2="190" y2="250" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="190" x2="400" y2="250" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="610" y1="190" x2="610" y2="250" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="190" y1="350" x2="300" y2="400" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="350" x2="400" y2="400" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="610" y1="350" x2="500" y2="400" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Footer -->
+  <text x="400" y="560" font-size="12" text-anchor="middle" fill="#7f8c8d">
+    4,820 records • 220 countries • 22 years of analysis
+  </text>
+</svg>
