@@ -70,6 +70,7 @@ green-energy-sustainability/
 ├── docs/                       # Documentation
 │   └── model_performance_report.txt
 │
+├──index.html
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
