@@ -64,8 +64,6 @@ green-energy-sustainability/
 │   ├── country_data.json
 │   └── scaler_params.json
 │
-├── visualizations/             # Interactive dashboards
-│   └── green_energy_dashboard.html
 │
 ├── assets/                     # Images and resources
 │   └── world.svg
