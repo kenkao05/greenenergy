@@ -68,12 +68,13 @@ green-energy-sustainability/
 │   └── world.svg
 │
 ├── docs/                       # Documentation
-│   └── model_performance_report.txt
+│   ├── model_performance_report.txt
+│   ├── API_REFERENCE.md
+│   └── architecture.svg
 │
 ├──index.html
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 └── LICENSE
 ```
 
